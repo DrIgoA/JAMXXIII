@@ -1,17 +1,40 @@
 ---
 title: "Modelo JAM XXXIII"
-author: "Rodrigo J. Alonso rodrigojavieralonso@ege.fcen.uba.ar"
+author: "Rodrigo J. Alonso"
 date: "`r Sys.Date()`"
 output: 
-  html_document:
+  html_document: 
     toc: yes
-    toc_depth: 3
     theme: united
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+### Resumen
+
+**Distribución espacial de pequeños mamíferos en sistemas de producción ganadera de la provincia de Buenos Aires, Argentina**
+
+Rodrigo J. Alonso(1), Melanie Ruiz(2) , Malena Rospide(1) , Rosario Lovera(1) , Juliana Sánchez(2) , Regino Cavia(1) 
+
+(1) Instituto de Ecología, Genética y Evolución (CONICET-UBA), Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires. 
+(2) Centro de Bioinvestigaciones (CeBio) Centro de Investigaciones y Transferencia del Noroeste de la Provincia de Buenos Aires CITNOBA (CONICET-UNNOBA). 
+
+Correo correspondencia: *rodrigojavieralonso@ege.fcen.uba.ar*
+
+RESUMEN:
+Algunos pequeños mamíferos terrestres son considerados un problema en los sistemas ganaderos, generan pérdidas económicas y son potenciales transmisores de agentes patógenos. Entender su distribución espacial en los sistemas productivos es necesario para elaborar estrategias de control. Para ello, realizamos muestreos de pequeños mamíferos en ocho feedlots y ocho tambos en 2019 y 2021, durante las cuatro estaciones del año, utilizando trampas de captura viva tipo jaula y tipo Sherman. Colocamos las trampas durante tres noches consecutivas a lo largo de transectas en distintos ambientes de cada establecimiento (1,64–8,1ha), y las revisamos por la mañana. Para analizar la distribución de las especies utilizamos modelos jerárquicos multiespecie bajo un enfoque bayesiano, estimando la detectabilidad y uso diferencial de los ambientes. Evaluamos la detectabilidad en función de la noche de muestreo y de la temperatura media del día; y el uso en función del tipo de sistema, del ambiente del establecimiento (tambos: tambos, vegetación, zanjas, galpones y fosa; feedlots: vegetación, zanjas, galpones, comederos y silos), y la estación del año  . Utilizamos distribuciones previas no informativas para los hiperparámetros modelados. Con un esfuerzo de 5217 trampas jaula-noche y 5552 trampas Sherman-noche, capturamos un total de 187 individuos pertenecientes a siete especies; las exóticas, *Rattus novergicus* (n:85), *Mus musculus* (n:17) y *Rattus rattus* (n:7); y las nativas *Akodon azarae* (n:33), *Didelphis albiventris* (n:31), *Calomys laucha* (n:7) y *Oligoryzomys flavescens* (n:7). La noche de muestreo afectó negativamente la detectabilidad de *R. novergicus* y *R. rattus*. El uso de los sitios por cada especie se relacionó con los ambientes de los establecimientos. *Rattus norvegicus*, *R. rattus* y *M. musculus* usaron con mayor frecuencia los ambientes de zanja, galpón, tambo y fosa. *Akodon azarae* usó con mayor frecuencia los ambientes de zanja y galpón, mientras que *C. laucha* y *D. albiventris* los galpones y silos. *Oligoryzomys flavescens* utilizó diferencialmente el ambiente silo  . El uso no estuvo asociado al tipo de establecimiento o estación del año para ninguna especie. Estos   resultados muestran que los planes de manejo de roedores plaga deben adecuarse a los distintos ambientes independientemente del tipo de sistema, dado que existen ambientes con mayor uso relativo de roedores exóticos invasores y ambientes co-ocupados por especies nativas no-blanco del control.
+
+Palabras Claves: **manejo**, **plagas**, **roedores**
+
+Subsidios: SAREM 2022 para cursos de posgrado, PICT 2019-02218, IPCVA: Ref. Exp. CUDAP FCEN N°1596/18, UBACyT: 20020170100171BA, PIP: 11220150100536CO
+
+
+### Póster
+Si te quedaste con ganas de seguir leyendo el póster, acá te lo dejamos:
+
+![](C:/Users/Usuario 1/Documents/GitHub/JAMXXIII/docs/poster.png)
+
 
 ### Paquetes
 El paquete principal es *jagsUI*, que hace de nexo con JAGS, el cual tiene que estar previamente instalado.
